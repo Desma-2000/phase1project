@@ -1,4 +1,25 @@
 document.addEventListener('DOMContentLoaded', function() {
+    fetch('db.json') // Fetch data from db.json file
+                .then(response => response.json()) // Parse JSON response
+                .then(data => {
+                    const outputDiv = document.getElementById('output');
+                    data.lecturers.forEach(lecturer => {
+                        const lecturerDiv = document.createElement('div');
+                        lecturerDiv.classList.add('lecturer');
+                        lecturerDiv.innerHTML = `
+                            <h3>${lecturer.name}</h3>
+                            <p><strong>Email:</strong> ${lecturer.email}</p>
+                            <div class="courses">
+                                <h4>Courses</h4>
+                                <ul>
+                                    ${lecturer.courses.map(course => `<li>${course.course_name} (${course.course_id})</li>`).join('')}
+                                </ul>
+                            </div>
+                        `;
+                        outputDiv.appendChild(lecturerDiv);
+                    });
+                })
+                .catch(error => console.error('Error fetching data:', error));
     // Event listener for login button click
     document.getElementById('loginBtn').addEventListener('click', login);
     

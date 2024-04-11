@@ -9,6 +9,7 @@
 <body>
     <div class="container">
         <h1>Des Schools</h1>
+        <img id="logo" src="./desschools.html" alt="Logo">
         <h2>Class Attendance Register</h2>
         <div id="loginForm">
             <h3>Login</h3>
@@ -24,8 +25,12 @@
             <button onclick="signup()">Sign Up</button>
             <p>Already have an account? <a href="#" onclick="showLoginForm()">Login</a></p>
         </div>
+        
     </div>
-
+    <div class="container" id="output">
+        <!-- Lecturer information will be dynamically added here -->
+    </div>
     <script src="index.js"></script>
+    <script src="server.js"></script>
 </body>
 </html>
