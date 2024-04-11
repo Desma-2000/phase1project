@@ -1,0 +1,115 @@
+{
+    "lecturers": [
+      {
+        "username": "lecturer1",
+        "password": "password1",
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "courses": [
+          {
+            "course_id": "CSE101",
+            "course_name": "Introduction to Computer Science",
+            "schedule": [
+              {
+                "day": "Monday",
+                "time": "10:00 AM - 12:00 PM"
+              },
+              {
+                "day": "Wednesday",
+                "time": "10:00 AM - 12:00 PM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "username": "lecturer2",
+        "password": "password2",
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "courses": [
+          {
+            "course_id": "MAT201",
+            "course_name": "Linear Algebra",
+            "schedule": [
+              {
+                "day": "Tuesday",
+                "time": "1:00 PM - 3:00 PM"
+              },
+              {
+                "day": "Thursday",
+                "time": "1:00 PM - 3:00 PM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "username": "lecturer3",
+        "password": "password3",
+        "name": "Alice Johnson",
+        "email": "alice.johnson@example.com",
+        "courses": [
+          {
+            "course_id": "PHY301",
+            "course_name": "Quantum Physics",
+            "schedule": [
+              {
+                "day": "Monday",
+                "time": "2:00 PM - 4:00 PM"
+              },
+              {
+                "day": "Wednesday",
+                "time": "2:00 PM - 4:00 PM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "username": "lecturer4",
+        "password": "password4",
+        "name": "David Brown",
+        "email": "david.brown@example.com",
+        "courses": [
+          {
+            "course_id": "ENG101",
+            "course_name": "English Composition",
+            "schedule": [
+              {
+                "day": "Monday",
+                "time": "9:00 AM - 11:00 AM"
+              },
+              {
+                "day": "Wednesday",
+                "time": "9:00 AM - 11:00 AM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "username": "lecturer5",
+        "password": "password5",
+        "name": "Emily White",
+        "email": "emily.white@example.com",
+        "courses": [
+          {
+            "course_id": "BIO201",
+            "course_name": "Biology",
+            "schedule": [
+              {
+                "day": "Tuesday",
+                "time": "10:00 AM - 12:00 PM"
+              },
+              {
+                "day": "Thursday",
+                "time": "10:00 AM - 12:00 PM"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
